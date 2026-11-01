@@ -69,7 +69,8 @@ or self-hosted model.
 ## Research agents
 
 - [GPT Researcher](https://github.com/assafelovic/gpt-researcher) - An autonomous agent that performs deep research over the web or your own data with any LLM provider.
-- [DeerFlow](https://github.com/bytedance/deer-flow) - Also a research harness; listed above under assistants.
+
+DeerFlow, listed above under assistants, is also a long-horizon research harness.
 
 ## Browser agents
 
@@ -122,7 +123,8 @@ Libraries for writing your own agents. None of these are hosted services; your c
 ## Memory for agents
 
 - [Mem0](https://github.com/mem0ai/mem0) - A drop-in memory layer for agents and apps, self-hostable.
-- [Letta](https://github.com/letta-ai/letta) - Memory is the core of Letta; listed above under frameworks.
+
+Letta, listed above under frameworks, is built around long-term memory and can serve as the memory layer on its own.
 
 ## Local model runtimes
 
@@ -136,24 +138,26 @@ The engines that serve a model to all of the above without an API key.
 
 ## Choosing one
 
-| You want | Start with |
-|---|---|
+| You want                                                         | Start with                                 |
+| ---------------------------------------------------------------- | ------------------------------------------ |
 | An assistant in Telegram, Discord or WhatsApp that remembers you | OpenClaw, Hermes Agent, ZeroClaw, nanoclaw |
-| The same, but every agent sandboxed in a container | nanoclaw, Agent Zero |
-| No cloud APIs at all, local models only | agenticSeek, Jan, AnythingLLM with Ollama |
-| An agent that works in your code | OpenHands, opencode, goose, Cline |
-| Drag-and-drop automations with AI steps | n8n, Dify, Langflow, Activepieces |
-| A chat UI for the whole household or team | Open WebUI, LibreChat |
-| To write your own agent in Python | LangGraph, CrewAI, smolagents, Pydantic AI |
-| A voice assistant you host | Pipecat, LiveKit Agents, TEN |
+| The same, but every agent sandboxed in a container               | nanoclaw, Agent Zero                       |
+| No cloud APIs at all, local models only                          | agenticSeek, Jan, AnythingLLM with Ollama  |
+| An agent that works in your code                                 | OpenHands, opencode, goose, Cline          |
+| Drag-and-drop automations with AI steps                          | n8n, Dify, Langflow, Activepieces          |
+| A chat UI for the whole household or team                        | Open WebUI, LibreChat                      |
+| To write your own agent in Python                                | LangGraph, CrewAI, smolagents, Pydantic AI |
+| A voice assistant you host                                       | Pipecat, LiveKit Agents, TEN               |
 
 ## Running agents locally
 
 Most agents need three things: a model endpoint, a place to run, and somewhere to keep state.
 
-1. **Model.** Install [Ollama](https://github.com/ollama/ollama) or [LocalAI](https://github.com/mudler/LocalAI) and pull a model. A 7B to 14B model runs on 16 GB of RAM or an 8 GB GPU; 30B and up wants 24 GB of VRAM or a Mac with 32 GB or more. Any agent that accepts an OpenAI-compatible base URL will talk to it.
-2. **Runtime.** Nearly everything here ships a Docker Compose file. A small home server, a NAS with Docker, or a spare mini PC is enough for the agent itself; the model is what needs the memory.
-3. **State.** Agents keep memory, logs and credentials on disk. Put that directory on a volume you back up, and keep the agent on a network you trust, since many of them can run commands and browse.
+**Model.** Install Ollama or LocalAI from the runtimes section and pull a model. A 7B to 14B model runs on 16 GB of RAM or an 8 GB GPU; 30B and up wants 24 GB of VRAM or a Mac with 32 GB or more. Any agent that accepts an OpenAI-compatible base URL will talk to it.
+
+**Runtime.** Nearly everything here ships a Docker Compose file. A small home server, a NAS with Docker, or a spare mini PC is enough for the agent itself; the model is what needs the memory.
+
+**State.** Agents keep memory, logs and credentials on disk. Put that directory on a volume you back up, and keep the agent on a network you trust, since many of them can run commands and browse.
 
 ## Questions
 
