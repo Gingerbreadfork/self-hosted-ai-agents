@@ -111,6 +111,7 @@ Self-hosted chat UIs that go past plain chat: tool calling, agents, document sea
 Libraries for writing your own agents. None of these are hosted services; your code runs where you run it.
 
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Build resilient, stateful agents as graphs.
+- [LightAgent](https://github.com/wanxingai/LightAgent) - Python framework with tools, memory, MCP, checkpointed workflows, and persistent dynamic task graphs for locally hosted agent applications.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Orchestrate role-playing, collaborating agents.
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's programming framework for agentic AI.
 - [Agno](https://github.com/agno-agi/agno) - A self-driving agent platform and framework.
