@@ -42,6 +42,7 @@ Telegram, Discord, WhatsApp, Slack or a web page. They remember, schedule, brows
 - [agenticSeek](https://github.com/Fosowl/agenticSeek) - A fully local Manus-style agent that thinks, browses and codes with no API keys and no monthly bill.
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - The original autonomous agent project, now a self-hostable platform for building and running continuous agents.
 - [Octop](https://github.com/TencentCloud/Octop) - A self-hosted, multi-user, multi-agent AI assistant.
+- [Vesper](https://github.com/LancerLSY/vesper) - A self-hosted personal AI harness with resumable coding and research tasks, model routing, and human approval for external actions.
 - [Khoj](https://github.com/khoj-ai/khoj) - A self-hostable AI second brain. Answers from your documents and the web, custom agents, scheduled automations.
 - [Leon](https://github.com/leon-ai/leon) - A long-running open source personal assistant with a skills system.
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Multi-agent framework and runtime for self-hosted, low-code agent workforces.
