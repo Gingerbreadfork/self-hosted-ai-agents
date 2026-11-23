@@ -52,6 +52,7 @@ Telegram, Discord, WhatsApp, Slack or a web page. They remember, schedule, brows
 - [IntentKit](https://github.com/crestalnetwork/intentkit) - A self-hosted agent cluster that manages a collaborative team of agents.
 - [Huginn](https://github.com/huginn/huginn) - The original self-hosted agent platform: agents that watch the web and act on your behalf, pre-dating LLMs and still maintained.
 - [Holon](https://github.com/holon-run/holon) - A self-hosted, local-first AI assistant workbench and Rust agent runtime with persistent workspaces, event-driven wait/wake, git worktree isolation, explicit trust boundaries, Web GUI, TUI, macOS, and mobile remote clients; works with Ollama, llama.cpp, and cloud OpenAI/Anthropic/Gemini APIs.
+- [kwant](https://github.com/alexsergivan/kwant) - A self-hosted team of AI bots in one Rust binary, with spaces, @mention handoffs, scheduled routines, approvals before risky actions, and local models through Ollama.
 
 ## Coding agents
 
